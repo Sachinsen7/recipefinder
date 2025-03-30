@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import cookingGirl1 from "../../assets/Community/cookingGirl1.jpg";
+import cookingGirl1 from "../../assets/Community/CookingGirl1.jpg";
 import recipeImage from "../../assets/Community/recipe_image.jpg";
 import imgeeee from "../../assets/imageee.png";
 import { Link } from "react-router-dom";
