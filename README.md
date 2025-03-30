@@ -77,30 +77,6 @@ git clone https://github.com/your-username/dish-discovery.git
 cd dish-discovery
 ```
 
-#### Install Dependencies:
-
-```bash
-npm install
-```
-
-#### Set Up Environment Variables:
-
-Create a `.env` file in the root directory.
-
-Add your Spoonacular API key:
-
-```
-REACT_APP_SPOONACULAR_API_KEY=your-api-key-here
-```
-
-#### Run the Development Server:
-
-```bash
-npm start
-```
-
-The app will be available at `http://localhost:3000`.
-
 ## Deployment
 
 The project is deployed and live at: [Insert Deployment Link Here] (e.g., https://dish-discovery.netlify.app).
@@ -113,15 +89,7 @@ To deploy your own version:
 npm run build
 ```
 
-### Deploy to Netlify/Vercel:
-
-#### For Netlify:
-
-Drag and drop the `build` folder into Netlify’s dashboard, or use the Netlify CLI:
-
-```bash
-netlify deploy --prod
-```
+### Deploy to Vercel:
 
 #### For Vercel:
 
