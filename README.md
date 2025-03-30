@@ -23,7 +23,7 @@ The application features a clean and intuitive UI, dynamic recipe fetching via t
 - **API Integration:** Spoonacular API for fetching random recipes.
 - **Animation:** Framer Motion for smooth transitions and interactive elements.
 - **State Management:** React Hooks (`useState`, `useEffect`) for managing state and side effects.
-- **Deployment:** [Netlify/Vercel] (replace with the platform you used) for hosting the live application.
+- **Deployment:** [Vercel] (replace with the platform you used) for hosting the live application.
 
 ## Project Structure
 
@@ -79,7 +79,7 @@ cd dish-discovery
 
 ## Deployment
 
-The project is deployed and live at: [Insert Deployment Link Here] (e.g., https://dish-discovery.netlify.app).
+The project is deployed and live at: [[Insert Deployment Link Here](https://dishdishcovery.vercel.app/)]
 
 To deploy your own version:
 
