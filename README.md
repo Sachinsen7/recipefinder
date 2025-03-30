@@ -79,7 +79,7 @@ cd dish-discovery
 
 ## Deployment
 
-The project is deployed and live at: [[Insert Deployment Link Here](https://dishdishcovery.vercel.app/)]
+The project is deployed and live at: [[Demo](https://dishdishcovery.vercel.app/)]
 
 To deploy your own version:
 
