@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules"; // Import Swiper modules
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import { Link } from "react-router-dom";
 
 // Import Swiper styles
 import "swiper/css";
@@ -62,12 +63,12 @@ const RecipeSwiper = ({ recipe }) => {
             <p className="text-[#4A4A4A] text-base font-bold mt-6 mb-14 block">
               Swipe for Recipes.
             </p>
-            <a
-              href="/tips"
+            <Link
+              to={"/tips"}
               className="mt-16 mb-5 ml-2.5 py-4 px-10 bg-[#E27D60] hover:bg-[#bd5c41] text-white rounded-lg font-bold text-lg cursor-pointer"
             >
               Get Tips
-            </a>
+            </Link>
           </div>
         </div>
         {/* Swiper Component */}
@@ -122,7 +123,7 @@ const RecipeSwiper = ({ recipe }) => {
           ))}
         </Swiper>
         {/* Custom Navigation Arrows */}
-        <div className="custom-prev absolute bottom-0 md:top-1/2 left-12 md:left-[770px] md:right-[435px] transform -translate-y-1/2 z-10 bg-[#E27D60] rounded-lg hover:bg-[#d66a4b] w-12 h-12 flex items-center justify-center">
+        <div className="custom-prev absolute bottom-0 md:top-1/2 left-12 md:left-[77 0px] md:right-[435px] transform -translate-y-1/2 z-10 bg-[#E27D60] rounded-lg hover:bg-[#d66a4b] w-12 h-12 flex items-center justify-center">
           <i className="fas fa-chevron-left text-[#EEEEEE] text-xl cursor-pointer"></i>
         </div>
         <div className="custom-next absolute bottom-0 md:top-1/2 right-10 md:right-0 transform -translate-y-1/2 z-10 bg-[#E27D60] rounded-lg hover:bg-[#d66a4b] w-12 h-12 flex items-center justify-center">

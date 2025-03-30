@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function Tips() {
   return (
-    <section className="min-h-screen flex flex-col mt-[100px]">
+    <section className="min-h-screen flex flex-col mt-[130px] md:mt-[100px]">
       <div className="relative w-full bg-white min-h-[700px] flex items-center justify-center overflow-hidden">
         <div className="container mx-auto px-4 relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between relative">

@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function About() {
   return (
     <>
-      <section className="min-h-screen flex flex-col mt-[100px]">
+      <section className="min-h-screen flex flex-col mt-[130px] md:mt-[100px]">
         {/* Hero Section */}
 
         <div className="relative w-full bg-white min-h-[700px] flex items-center justify-center overflow-hidden">

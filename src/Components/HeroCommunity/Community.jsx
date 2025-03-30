@@ -1,5 +1,6 @@
 import React from "react";
 import community from "../../assets/Community/community.jpg";
+import { Link } from "react-router-dom";
 
 function Community() {
   return (
@@ -20,12 +21,12 @@ function Community() {
             Connect with fellow food lovers, share your recipes, and learn from
             others in our vibrant community!
           </p>
-          <a
-            href="/community"
+          <Link
+            to={"/community"}
             className="inline-block mt-6 py-4 px-10 bg-[#E27D60] hover:bg-[#bd5c41] text-white  rounded-lg font-bold text-lg cursor-pointer"
           >
             Join Now
-          </a>
+          </Link>
         </div>
       </div>
     </section>
