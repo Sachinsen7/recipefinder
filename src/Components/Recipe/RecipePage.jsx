@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import cookingGirl1 from "../../assets/Community/CookingGirl1.jpg";
-import recipeImage from "../../assets/Community/recipe_image.jpg";
+import recipeImage from "../../assets/Community/Recipe_image.jpg";
 import imgeeee from "../../assets/imageee.png";
 import { Link } from "react-router-dom";
 
