@@ -123,7 +123,7 @@ const RecipeSwiper = ({ recipe }) => {
           ))}
         </Swiper>
         {/* Custom Navigation Arrows */}
-        <div className="custom-prev absolute bottom-0 md:top-1/2 left-12 md:left-[77 0px] md:right-[435px] transform -translate-y-1/2 z-10 bg-[#E27D60] rounded-lg hover:bg-[#d66a4b] w-12 h-12 flex items-center justify-center">
+        <div className="custom-prev absolute bottom-0 md:top-1/2 left-12 md:left-[770px] md:right-[435px] transform -translate-y-1/2 z-10 bg-[#E27D60] rounded-lg hover:bg-[#d66a4b] w-12 h-12 flex items-center justify-center">
           <i className="fas fa-chevron-left text-[#EEEEEE] text-xl cursor-pointer"></i>
         </div>
         <div className="custom-next absolute bottom-0 md:top-1/2 right-10 md:right-0 transform -translate-y-1/2 z-10 bg-[#E27D60] rounded-lg hover:bg-[#d66a4b] w-12 h-12 flex items-center justify-center">
